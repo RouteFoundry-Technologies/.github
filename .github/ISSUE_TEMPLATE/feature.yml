@@ -1,0 +1,60 @@
+name: Feature or improvement
+description: Propose a useful capability, workflow improvement or technical enhancement
+title: "feat: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for a concrete improvement with a clear problem and expected outcome. For security-sensitive matters, follow SECURITY.md instead of opening a public issue.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What problem are we solving, or what opportunity are we addressing?
+      placeholder: Describe the current limitation or operational need.
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: What should be true when this work is complete?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+      description: Describe a possible solution if you have one. Focus on outcomes rather than prescribing unnecessary implementation detail.
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: List observable conditions that would make the work complete.
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks and dependencies
+      description: Note security, privacy, data, migration, deployment, compatibility or dependency concerns.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-submission checks
+      options:
+        - label: I searched existing issues for similar work.
+          required: true
+        - label: This proposal does not include secrets, credentials or private customer information.
+          required: true
