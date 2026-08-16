@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://routefoundry.co.za/contact
+    about: Report suspected security issues privately. Do not open a public vulnerability issue.
+  - name: RouteFoundry Technologies
+    url: https://routefoundry.co.za
+    about: Visit the RouteFoundry Technologies website for company and service information.
